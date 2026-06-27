@@ -1,8 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/:id",
-        "destination": "/api/:id"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/:id",
+      "destination": "/api/go?id=:id"
+    }
+  ]
+}
